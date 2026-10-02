@@ -361,3 +361,10 @@ Responses do not expose raw database errors or sensitive input. JSON logs includ
 - Historical prices are saved, but centre/test names are not versioned. Page totals may change while other requests add records.
 - Redis and Celery are omitted because this project does not need distributed counters or background work. Generated caches, local dependencies and credentials are ignored by Git.
 
+## Future improvements
+
+- Admin-only catalogue management.
+- Signed provider webhooks and payment reconciliation.
+- Shared rate limiting for multiple API instances.
+- Background notifications when required.
+- CI, monitoring and database backups.
